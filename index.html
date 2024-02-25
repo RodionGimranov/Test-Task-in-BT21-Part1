@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Задание на чистый html, css, js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <main class="wrapper">
+        <div id="userDataDisplay"></div>
+        <button class="get__start__btn" id="getStartBtn">Начать</button>
+        <section class="pop-up__menu__container" id="popUpMenu_container">
+            <div class="pop-up__menu__content" id="popUpMenu">
+                <h1 class="pop-up__title">Анкета участника</h1>
+                <div class="input__list__container">
+                    <input class="user__name" type="text" placeholder="Ваше имя" required>
+                    <input class="user__age" type="text" placeholder="Ваш возраст" required>
+                    <input class="user__mobile-phone" type="number" placeholder="Номер телефона"
+                    minlength="8" maxlength="12" autocomplete="tel" required>
+                    <input class="user__telegram" type="text" placeholder="Ник в Telegram" required>
+                    <input class="user__adress" type="text" placeholder="Ваш адрес" required>
+                </div>
+                <button class="send__data__btn" id="sendDataBtn">Отправить</button>
+            </div>
+        </section>
+    </main>
+    
+<script src="main.js"></script>
+</body>
+
+</html>
